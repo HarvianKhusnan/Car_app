@@ -1,0 +1,120 @@
+<resources>
+    <string name="app_name">Car_Project</string>
+
+    <string name="car_name">Nama Mobil</string>
+    <string name="description">Harga </string>
+    <string name="Spesification">Spesifikasi</string>
+    <string name="about"> About </string>
+    <string name="List">List</string>
+    /string>
+    <string name="Grid"> Grid </string>
+
+    <string-array name="data_name">
+        <item>BMW M3</item>
+        <item>Toyota Corolla Altis</item>
+        <item>Hyundai Creta</item>
+        <item>Mitsubishi Eclipse Cross</item>
+        <item>Mercedez Benz G-class</item>
+        <item>Toyota Gr Yaris</item>
+        <item>Mitsubishi Pajero Sport</item>
+        <item>Hyundai Palisade</item>
+        <item>Mercedez Benz S-class</item>
+        <item>Toyota Avanza</item>
+    </string-array>
+
+    <string-array name="data_description">
+        <item>Rp 2,3 Milyar</item>
+        <item>Rp 538,9 Juta</item>
+        <item>Rp 291,3 Juta</item>
+        <item>Rp 487,65 Juta</item>
+        <item>Rp 6,45 Milyar</item>
+        <item>Rp 308,1 Juta </item>
+        <item>Rp 546,6 Juta</item>
+        <item>Rp 855,5 Juta</item>
+        <item>Rp 2,74 Milyar</item>
+        <item>Rp 233,1 Juta </item>
+    </string-array>
+
+    <integer-array name="data_photo">
+        <item>@drawable/bmwsedan</item>
+        <item>@drawable/corollaltis</item>
+        <item>@drawable/creta</item>
+        <item>@drawable/eclipsecross</item>
+        <item>@drawable/gclass</item>
+        <item>@drawable/gryaris</item>
+        <item>@drawable/pajerosport</item>
+        <item>@drawable/palisade</item>
+        <item>@drawable/sclass</item>
+        <item>@drawable/toyotaavanza</item>
+    </integer-array>
+
+    <string-array name="Spesifikasi">
+        <item>Transmisi : Otomatis Bahan Bakar : Bensin Mesin : 2993 cc Seat : 4\n Konfigurasi Transmisi : 8-speed M Steptronic</item>
+        <item>
+            Transmisi : Otomatis
+            Bahan Bakar : Bensin
+            Mesin : 1799 cc
+            Seat : 4
+            Konfigurasi Transmisi : Automatic 7 Speed Cvt
+        </item>
+        <item>
+            Transmisi : Otomatis,Manual
+            Bahan bakar : Bensin
+            Mesin : 1499 cc
+            seat : 4
+            Konfigurasi Transmisi : Automatic,Manual 6 speed
+        </item>
+        <item>
+            Tranmisi : Otomatis
+            Bahan Bakar : Bensin
+            Mesin : 1999 cc
+            seat : 4
+            Konfigurasi Transmisi : Automatic 6 Speed
+        </item>
+        <item>
+            Transmisi: Otomatis
+            Bahan Bakar : Bensin
+            Mesin : 2999 cc
+            Seat : 7
+            Konfigurasi Transmisi : 9G-TRONIC automatic transmission
+        </item>
+        <item>
+            Transmisi : Manual
+            Bahan Bakar : Bensin
+            Mesin : 1599 cc
+            seat : 4
+            Konfigurasi Tranmisi : 6 Manual Transmission 4WD
+        </item>
+        <item>
+            Transmisi : Manual,Automatic
+            Bahan Bakar : Diesel
+            Mesin : 2442 cc
+            seat : 7
+            Konfigurasi Transmisi : Automatic 8 Speed, Manual 5 Speed
+        </item>
+        <item>
+            Transmisi : Automatic
+            Bahan Bakar : Diesel
+            Mesin : 2199 cc
+            seat : 7
+            Konfigurasi Transmisi : 8 Speed Automatic
+        </item>
+        <item>
+            Transmisi : Automatic
+            Bahan Bakar : Bensin
+            Mesin : 2996 cc
+            seat : 4
+            Konfigurasi Transmisi : 9G-Tronic Automatic Transmission
+        </item>
+        <item>
+            Transmisi : Automatic/Manual
+            Bahan Bakar : Bensin
+            Mesin : 1200 cc
+            seat : 7
+            Konfigurasi Transmisi : 4 speed Automatic/ 5 speed manual
+        </item>
+
+
+    </string-array>
+
+</resources>
