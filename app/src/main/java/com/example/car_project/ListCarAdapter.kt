@@ -16,7 +16,7 @@ class ListCarAdapter(private val listCar: ArrayList<Car>) : RecyclerView.Adapter
         val imgPhoto: ImageView = itemView.findViewById(R.id.img_item)
         val name: TextView = itemView.findViewById(R.id.item_name)
         val description:TextView = itemView.findViewById(R.id.tv_item_description)
-        val spesification:TextView = itemView.findViewById(R.id.tv_item_spec)
+      // val spesification:TextView = itemView.findViewById(R.id.tv_item_spec)
 
     }
 
@@ -30,7 +30,7 @@ class ListCarAdapter(private val listCar: ArrayList<Car>) : RecyclerView.Adapter
         holder.imgPhoto.setImageResource(photo)
         holder.name.text = names
         holder.description.text = description
-        holder.spesification.text = spec
+        //holder.spesification.text = spec
 
         holder.itemView.setOnClickListener {
             val model = listCar[position]
