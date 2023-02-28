@@ -12,12 +12,18 @@ import androidx.recyclerview.widget.RecyclerView
 
 class MainActivity : AppCompatActivity() {
 
+    private val home:String = "Home"
+
     private lateinit var rvCar: RecyclerView
     private val list = ArrayList<Car>()
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
+
+        supportActionBar?.apply {
+            title = home
+        }
 
         rvCar = findViewById(R.id.rv_car)
         rvCar.setHasFixedSize(true)
